@@ -10,7 +10,7 @@ function spam() {
             reject('Channel is undefined!');
 
         // send message on spam channel
-        spamChannel.send('Bot Spam')
+        spamChannel.send('Spam auto delete')
         .then(msg => {
             // wait 100 ms until sending next spam message
             setTimeout(() => {
@@ -26,6 +26,7 @@ function spam() {
                     resolve();
                 }
             }, 1000)
+            msg.delete({timeout: 1500});
         })
         .catch(console.log);
 
