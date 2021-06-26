@@ -6,7 +6,7 @@ client.on("ready", () => {
 });
 
 client.on("message", (msg) => {
-  if(msg.author.id === '375992650429628416' && msg.contains === "testbot"){
+  if(msg.author.id === '375992650429628416' && msg.content === "testbot"){
     msg.channel.send("Running!")
   }
   if (msg.channel.id === "746017057669382276") {
