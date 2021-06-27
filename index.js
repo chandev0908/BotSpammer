@@ -11,6 +11,7 @@ client.on("message", (msg) => {
   }
   if (msg.channel.id === "746017057669382276") {
     msg.embeds.forEach((embed) => {
+      try{
       if(msg.author.id == '432610292342587392' && embed.author.name === "Sayu Ogiwara"){
         msg.react("❤️");
         console.log("You get " + embed.author.name);
@@ -43,6 +44,9 @@ client.on("message", (msg) => {
         msg.react("❤️");
         console.log("You get " + embed.author.name);
       }
+    }catch(ex){
+      console.log("ERROR: "+ex);
+    }
    });
   }
 });
