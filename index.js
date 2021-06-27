@@ -44,6 +44,40 @@ client.on("message", (msg) => {
         msg.react("❤️");
         console.log("You get " + embed.author.name);
       }
+      //Romeo wish
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Nyanners"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Josee"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Sig (Gangsta)"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Kaoruko Hanayagi"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Junna Hoshimi"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
+      // Cevan wish
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Skull Knight"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Trevor Belmont"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Musashi Miyamoto"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
     }catch(ex){
       console.log("ERROR: "+ex);
     }
