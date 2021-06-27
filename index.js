@@ -31,6 +31,10 @@ client.on("message", (msg) => {
         msg.react("❤️");
         console.log("You get " + embed.author.name);
       }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Laika"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
    });
   }
 });
