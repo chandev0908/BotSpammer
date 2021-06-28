@@ -36,7 +36,7 @@ client.on("message", (msg) => {
         msg.react("❤️");
         console.log("You get " + embed.author.name);
       }
-      if(msg.author.id == '432610292342587392' && embed.author.name === "Rey"){
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Ray"){
         msg.react("❤️");
         console.log("You get " + embed.author.name);
       }
