@@ -44,6 +44,14 @@ client.on("message", (msg) => {
         msg.react("❤️");
         console.log("You get " + embed.author.name);
       }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Zhongli"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Kaedehara Kazuha"){
+        msg.react("❤️");
+        console.log("You get " + embed.author.name);
+      }
       //Romeo wish
       if(msg.author.id == '432610292342587392' && embed.author.name === "Nyanners"){
         msg.react("❤️");
