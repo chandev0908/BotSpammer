@@ -90,7 +90,7 @@ client.on("message", (msg) => {
         msg.react("❤️");
         console.log("You get " + embed.author.name);
       }
-      if(msg.author.id == '432610292342587392' && embed.author.name === "Wendy (RV)"){
+      if(msg.author.id == '432610292342587392' && embed.author.name === "Irene"){
         msg.react("❤️");
         console.log("You get " + embed.author.name);
       }
