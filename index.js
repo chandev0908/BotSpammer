@@ -1,6 +1,7 @@
 const Discord = require("discord.js-selfbot-v11");
 const client = new Discord.Client();
 let spammer = require("./spamFunction");
+const config = require("./token.json");
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -155,7 +156,7 @@ client.on("message", (msg) => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
           }
-        }, 300);
+        }, 200);
       } catch (ex) {
         console.log("ERROR: " + ex);
       }
@@ -163,4 +164,4 @@ client.on("message", (msg) => {
   }
 });
 
-client.login(process.env.TOKEN || "Mzc1OTkyNjUwNDI5NjI4NDE2.YNcvkA.fOJaxVV1_JsnI7H-Qn_k2B0XKds");
+client.login(process.env.TOKEN || config.TOKEN);
