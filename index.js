@@ -155,6 +155,13 @@ client.on("message", (msg) => {
           msg.react("❤️");
           console.log("You get " + embed.author.name);
         }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Diablo (TenSura)"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
       } catch (ex) {
         console.log("ERROR: " + ex);
       }
