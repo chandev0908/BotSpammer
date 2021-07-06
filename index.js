@@ -1,7 +1,7 @@
 const Discord = require("discord.js-selfbot-v11");
 const client = new Discord.Client();
 let spammer = require("./spamFunction");
-const config = require("./token.json");
+//const config = require("./token.json");
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
