@@ -13,221 +13,279 @@ client.on("message", (msg) => {
   if (msg.channel.id === "746017057669382276") {
     msg.embeds.forEach((embed) => {
       try {
-        setTimeout(() => {
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Sayu Ogiwara"
-          ) {
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Sayu Ogiwara"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Amatsuka Uto"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Amatsuka Uto"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Vladilena Milizé"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Vladilena Milizé"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Elma"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Elma"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Aoi Nabi"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Aoi Nabi"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Laika"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Laika"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Ray"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Ray"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Near"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Near"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Zhongli"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Zhongli"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Kaedehara Kazuha"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Kaedehara Kazuha"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          //Romeo wish
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Nyanners"
-          ) {
+          }, 200);
+        }
+        //Romeo wish
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Nyanners"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Josee"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Josee"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Sig (Gangsta)"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Sig (Gangsta)"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Kaoruko Hanayagi"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Kaoruko Hanayagi"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Junna Hoshimi"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Junna Hoshimi"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          // Cevan wish
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Skull Knight"
-          ) {
+          }, 200);
+        }
+        // Cevan wish
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Skull Knight"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Trevor Belmont"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Trevor Belmont"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Musashi Miyamoto"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Musashi Miyamoto"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Shinei Nouzen"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Shinei Nouzen"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Irene"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Irene"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Diablo (TenSura)"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Diablo (TenSura)"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          // Bink wish Imma steal everything
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Sumia"
-          ) {
+          }, 200);
+        }
+        // Bink wish Imma steal everything
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Sumia"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Ashe"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Ashe"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Tomoko Nomura"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Tomoko Nomura"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Kagura Baldwin"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Kagura Baldwin"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Ririto Ibusuki"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Ririto Ibusuki"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Nyanners"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Nyanners"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Sylphy"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Sylphy"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Yuzuki Eba"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Yuzuki Eba"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-          if (
-            msg.author.id == "432610292342587392" &&
-            embed.author.name === "Mana (RF)"
-          ) {
+          }, 200);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Mana (RF)"
+        ) {
+          setTimeout(() => {
             msg.react("❤️");
             console.log("You get " + embed.author.name);
-          }
-        },180)
+          }, 200);
+        }
       } catch (ex) {
         console.log("ERROR: " + ex);
       }
