@@ -162,6 +162,70 @@ client.on("message", (msg) => {
           msg.react("❤️");
           console.log("You get " + embed.author.name);
         }
+        // Bink wish Imma steal everything
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Sumia"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Ashe"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Tomoko Nomura"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Kagura Baldwin"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Ririto Ibusuki"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Nyanners"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Sylphy"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Yuzuki Eba"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
+        if (
+          msg.author.id == "432610292342587392" &&
+          embed.author.name === "Mana (RF)"
+        ) {
+          msg.react("❤️");
+          console.log("You get " + embed.author.name);
+        }
       } catch (ex) {
         console.log("ERROR: " + ex);
       }
